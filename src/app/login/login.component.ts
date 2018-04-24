@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { LoginService } from './login.service';
+import { LoginService } from '../common/services/login.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { FormlyFieldConfig } from '@ngx-formly/core';
 
